@@ -1,0 +1,100 @@
+/*****************************
+Autor: Félix Lozano Domínguez
+Fecha creación:      14/10/2016
+Última modificación: 14/10/2016
+Versión: 0.01
+******************************/
+
+#pagina{
+	    width:455px;
+	    margin:0 auto;
+}
+
+#nbombo{
+	text-align: center;
+	background: lightgrey;
+	font-size: 18px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding: 10px;
+	width:50px;
+	height:50px;
+	margin: 20 300;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #E9E9E9;
+	border-bottom-color: #E9E9E9;
+	border-left-color: #999999;	
+}
+
+#btnbingo{
+	text-align: center;
+	background: lightgrey;
+	font-size: 18px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	width:100px;
+	height:50px;
+	margin: 20 300;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #E9E9E9;
+	border-bottom-color: #E9E9E9;
+	border-left-color: #999999;	
+	
+}
+
+#listaBingo{
+	margin: 20 30;
+}
+
+td{
+	    font-family:arial;
+	    color:#333;
+	    padding:10px;
+	    width:50px;
+	    height:50px;
+	    text-align:center;
+	    border:10px solid #ddc;
+	    background-color:#eee;
+	    background-size: 50% 50%;
+}
+
+h1, h3, h3 a{
+	    font-family:arial;
+	    text-align:center;
+	    padding:3px;
+	    color:#211111;
+	    background-color:#EEEEEE;
+	    border:2px solid #DDDDCC;
+}
+
+td{
+	    cursor:pointer;
+}
+
+#free{
+	    background-color:#fff;
+	    color:#eee;
+	    cursor:default;
+}
+
+body{
+	background-color:PowderBlue;
+}

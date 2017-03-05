@@ -1,0 +1,146 @@
+/*****************************
+Autor: Félix Lozano Domínguez
+Fecha creación:      14/10/2016
+Última modificación: 14/10/2016
+Versión: 0.01
+******************************/
+
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:LightSkyBlue;
+}
+
+h1{
+	color: #69D2E7;
+	text-align: center;
+	text-shadow:
+	4px 4px 0px #E0E4CC,
+	9px 8px 0px #F38630;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+
+p{
+	text-shadow: 
+	0.1em 0.1em 0.2em #006;
+	color: #2A0A12;
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Special Elite', cursive;
+}
+
+#formulario input{
+	box-shadow:1px 1px 45px #333;
+	transition: 200ms all ease;
+	padding: 5px 5px;
+	margin: 10px auto;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #E9E9E9;
+	border-bottom-color: #E9E9E9;
+	border-left-color: #999999;	
+}
+
+#formulario select{
+	border: 1px solid #ccc;
+    width: 40px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#formulario select select{
+	padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+/* #formulario a { */
+/* 		font-family: Arial, Helvetica, sans-serif; */
+/* 		text-decoration: none; */
+/* 		color: #FFF; */
+/* 		padding:32px 32px;	 */
+/* } */
+/* #formulario a:hover { */
+		
+/* 		font-family: Arial, Helvetica, sans-serif; */
+/* 		font-size: 18px; */
+/* 		text-decoration: none; */
+/* 		color: #FFF; */
+/* 		padding:32px 32px; */
+		
+/* } */
+
+a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 28px;
+		text-decoration: none;
+		color: #000;
+		background-color: teal;
+		background-repeat: no-repeat;
+		background-position: center center;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		padding:10px;
+		border-top-width: 3px;
+		border-right-width: 3px;
+		border-bottom-width: 3px;
+		border-left-width: 3px;
+		border-top-style: solid;
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		border-top-color: #999999;
+		border-right-color: #E9E9E9;
+		border-bottom-color: #E9E9E9;
+		border-left-color: #999999;	
+	}
+a:hover {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 28px;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #777799;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		padding:10px;
+		border-top-width: 3px;
+		border-right-width: 3px;
+		border-bottom-width: 3px;
+		border-left-width: 3px;
+		border-top-style: solid;
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		border-top-color: #999999;
+		border-right-color: #E9E9E9;
+		border-bottom-color: #E9E9E9;
+		border-left-color: #999999;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

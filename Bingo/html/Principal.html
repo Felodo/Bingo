@@ -1,0 +1,33 @@
+<!-- ************************* 
+Autor: Félix Lozano Domínguez
+Fecha creación:      15/01/2017
+Última modificación: 16/01/2017
+Versión: 0.01
+*****************************-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pagina Principal</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/menu_principal.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/principal.css">
+</head>
+
+<body>	
+		<h1>TodoBingo</h1>
+		<p>El mejor bingo a nivel nacional. 
+		<br>Juega y GANA.<p>
+		<div id="formulario">
+			Nº Jugadores: <input type="text" id="n_jugadores" name="num_jugadores" onChange="this.value=Comprobar_numeros(this.value);">
+			<br>
+			Valor que se apuesta: <select id="n_valor" class="nvalor" name="num_valor" onChange="this.value=Comprobar_numeros(this.value);"></select>€
+			<br><br><br>
+		
+		<!-- http://daveisonline.com/javaScript/bingo/bingo.html-->
+		
+  			<a href="#" id="btn_enviar" name="boton_enviar">Comenzar</a>
+		</div>
+</body>
+</html>
